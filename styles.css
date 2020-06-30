@@ -71,7 +71,7 @@ body {
 #search-bar {
     background-color: #FFF;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: 460px;
     height: 44px;
     border-style: solid;
@@ -89,6 +89,32 @@ body {
 
 #search-bar:hover, #search-bar:focus {
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.search-buttons {
+    background-color: rgb(242, 242, 242);
+    background-image: -webkit-linear-gradient(rgb(245, 245, 245), rgb(241, 241, 241));
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    border-style: solid;
+    border-color: rgb(242, 242, 242);
+    border-radius: 4px;
+    border-width: 1px;
+    color: rgb(95, 99, 104);
+    height: 36px;
+    margin: 2px 4px 11px 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.search-buttons:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
 }
 
 a {
