@@ -52,7 +52,6 @@ body {
     border-color: rgb(66, 133, 244);
     border-style: solid;
     border-width: 2px;
-
 }
 #sign-in-button a {
     color: #FFF !important;
@@ -64,6 +63,14 @@ body {
 #navbar a {
     color: #000;
 }
+
+#logo {
+    padding-top: 50px;
+}
+
+
+
+
 a {
     text-decoration: none;
 }
